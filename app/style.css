@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'TASA_Explorer';
+    src: url(/app/fonts/TASAExplorer-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: 'TASA_Explorer';
+    padding: 0;
+    margin: 0;
+}
