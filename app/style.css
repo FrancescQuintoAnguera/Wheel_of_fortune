@@ -8,3 +8,40 @@
     padding: 0;
     margin: 0;
 }
+
+#content{
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+
+header{
+    text-align: center;
+    padding: 2dvh;
+    background-color: #303030;
+    color: #ffffff;
+}
+
+main{
+    display: grid;
+    
+}
+
+#players {
+    align-self: center;
+    padding: 3dvh;
+}
+
+#players textarea{
+    margin-top: 2dvh;
+    height: 20dvh;
+}
+
+footer{
+    text-align: center;
+    padding: 3dvh;
+    color: #ffffff;
+    background-color: #303030;
+}
